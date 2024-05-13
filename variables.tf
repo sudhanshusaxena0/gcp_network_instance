@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "playground-s-11-2f44feb5"
+  default = "playground-s-11-688167d4"
 }
 
 variable "vpc_name" {
