@@ -8,11 +8,11 @@ terraform {
   }
   backend "remote" {
   # The name of your Terraform Cloud organization.
-    organization = "terraform_github_gcp_poc"
+    organization = "terraform_cloud_org00"
 
   # The name of the Terraform Cloud workspace to store Terraform state files in.
     workspaces {
-      name = "terraform_github_gcp_poc"
+      name = "terraform_cloud_workspace"
     }
   }
 }
